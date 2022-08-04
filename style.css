@@ -1,0 +1,45 @@
+.titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 400px;
+}
+body{
+    background: linear-gradient(to right, #a15e0d 0%, #cf6c0ad7 100%);
+}
+.topo{
+    display: flex;
+    gap: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.botao{
+    display: flex;
+    gap: 32px;
+    width: 130px;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 225);
+}
+.listas{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.topo{
+    display: flex;
+    margin-right: 20px;
+}
+.cabecario{
+    display: flex;
+    gap: 32px;
+    margin-left: -10px;
+    margin-top: 160px;
+    background-color: rgb(6, 5, 5);
+    width: 100%;
+    height: 10px;
+}
+.inferior{
+  display: flex;  
+  gap: 240px;
+}
